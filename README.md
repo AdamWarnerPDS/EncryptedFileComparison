@@ -47,5 +47,5 @@
 * "I_Encrypted" means that the encrypted suffix was found
 * "*_Newer" means that the file is newer than the threshold; default threshold is "10/19/2020 12:00:00 AM"
 * You will find what seems to be too many date, time, or datetime columns, these will be useful for sorting.  Hide them if you like
-* If a row's "C_*" columns are populated with "empty", this means a matching full file name was not found.
+* If a row's "C_*" columns are populated with "empty", this means a matching "I_OrigFullPath" was not found.
   * There is a known bug with the current encrypted suffix (*.3ncrypt3d*) causing issues with .json files and matching
