@@ -1,7 +1,7 @@
 # EncryptedFileComparison
 # How to use the file comparison tools
 ## Clean server data collection
-* Collect the script contents from: https://github.com/AdamWarnerPDS/Public/blob/master/Get-FilesAndCheckForEncryptionOrAge.ps1
+* Collect the script contents from: https://github.com/AdamWarnerPDS/EncryptedFileComparison/blob/main/Get-FilesAndCheckForEncryptionOrAge.ps1
   * Paste them into a new text file and rename said text file to Get-FilesAndCheckForEncryptionOrAge.ps1
 * In powershell run the following:
   * "Get-FilesAndCheckForEncryptionOrAge.ps1 -opMode clean"
@@ -14,7 +14,7 @@
 * Attach the vmdk for the corrupt server to a disposable virtual machine
 * Mount the disk using Disk Management
   * Make a note of the mounted disk's letter (F: will be used in the following examples)
-* Collect the script contents from: https://github.com/AdamWarnerPDS/Public/blob/master/Get-FilesAndCheckForEncryptionOrAge.ps1
+* Collect the script contents from: https://github.com/AdamWarnerPDS/EncryptedFileComparison/blob/main/Get-FilesAndCheckForEncryptionOrAge.ps1
   * Paste them into a new text file and rename said text file to Get-FilesAndCheckForEncryptionOrAge.ps1
 * Run the following in powershell "Get-FilesAndCheckForEncryptionOrAge.ps1 -rootDir 'F:\' -hostnameOverride <the corrupt servers hostname>
 * This will scan and process all files from the C: drive except the following directories:
